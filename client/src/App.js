@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Users } from './Users';
 import { Pages } from './Pages';
 
+import { Gallery } from './Gallery';
+
 const backend_uri = 'http://127.0.0.1:8000';
 
 function App() {

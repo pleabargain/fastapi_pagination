@@ -61,5 +61,9 @@ async def get_users(
 ):
     return paginate(app.state.users, params)
 
+
+
+
+
 if __name__ == '__main__':
     uvicorn.run('main:app', reload=True)
